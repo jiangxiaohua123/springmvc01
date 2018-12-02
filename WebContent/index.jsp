@@ -24,14 +24,19 @@
    <form action="order" method="post">
    		<input type="submit" value="REST POST">
    </form>
-   </br>
+   <br/>
    
    <!-- 修改一个订单 -->
    <form action="order" method="post">
    		<input type="hidden" name="_method" value="PUT"/>
    		<input type="submit" value="REST PUT" />
    </form>
-   </br>
+   <br/>
+   
+   <a href="testRequestHeader">Test RequestHead</a>
+   <br/>
+   
+   <a href="testCookieValue"> TEST Cookie</a>
    
 </body>
 </html>
